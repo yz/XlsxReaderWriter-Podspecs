@@ -20,6 +20,9 @@ Pod::Spec.new do |s|
   s.requires_arc       = true
 
   s.dependency 'SSZipArchive'
+  s.pod_target_xcconfig = {
+    'DEFINES_MODULE' => 'YES'
+  }
 
 end
 
