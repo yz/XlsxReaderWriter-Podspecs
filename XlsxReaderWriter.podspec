@@ -23,6 +23,10 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'DEFINES_MODULE' => 'YES'
   }
+  s.user_target_xcconfig = {
+    'DEFINES_MODULE' => 'YES'
+  }
+  s.module_name = 'XlsxReaderWriter'
 
 end
 
