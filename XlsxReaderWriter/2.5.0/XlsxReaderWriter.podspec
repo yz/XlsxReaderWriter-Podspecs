@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc       = true
 
-  s.dependency         = 'SSZipArchive'
+  s.dependency 'SSZipArchive' 
 
 end
 
